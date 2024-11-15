@@ -2,6 +2,8 @@
 
 A simple and intuitive Task Manager application built with ReactJS, that allows users to create, edit, and delete tasks. This project aims to help users manage their tasks efficiently and improve productivity.A simple and intuitive Task Manager application built with React. This application allows users to create, edit, and delete tasks, helping them manage their daily activities efficiently. If you don't want to download react, use Stackbiltz online platform for performing this project.
 
+I used Stackbiltz, here's link to my project: https://react-7gbaay.stackblitz.io/
+
 ## Features
 
 - Add new tasks with descriptions
@@ -9,6 +11,10 @@ A simple and intuitive Task Manager application built with ReactJS, that allows 
 - Delete tasks
 - Mark tasks as completed
 - Responsive design for mobile and desktop
+
+![WhatsApp Image 2024-11-15 at 15 16 17_e7c94ac3](https://github.com/user-attachments/assets/f3a600b8-9ec5-4972-92f3-065bed9d42c2)
+![WhatsApp Image 2024-11-15 at 14 51 37_778c8c34](https://github.com/user-attachments/assets/bbeb71f1-e768-408e-b9f6-3abd315e3099)
+![WhatsApp Image 2024-11-15 at 14 52 02_5d0cb392](https://github.com/user-attachments/assets/754c8354-1d45-49be-b8cd-c29b2afa1b31)
 
 
 ## Technologies Used
@@ -33,9 +39,11 @@ This component represents an individual task, displaying its details and providi
 
 The `TaskList` component is responsible for displaying all the tasks. It takes the list of tasks and renders each one using the `Task` component. This file organizes how tasks are presented to the user.
 
-### `src/components/TaskForm.js`
+### `src/components/TaskInput.js`
+This component provides a form for users to input new tasks, including fields for task details and a submit button.
 
-This component provides a form for users to add new tasks. It includes an input field for entering the task description and a button to submit the new task. This file handles the user input for creating tasks.
+### 'src/components/SearchBar.js'
+This component allows users to filter the displayed tasks by entering search terms, enhancing task management and accessibility.
 
 ### `src/styles.css`
 
