@@ -25,9 +25,9 @@ A simple and intuitive Task Manager application built with ReactJS, that allows 
 
 The `App` component is the core of the application. It manages the overall state, including the list of tasks. This file brings together different components and handles the main logic for adding, editing, and deleting tasks.
 
-### `src/components/Task.js`
+### `src/components/TaskItem.js`
 
-This component represents a single task in the application. It displays the task's details and provides options for editing or deleting the task. It is responsible for showing how each task looks and functions.
+This component represents an individual task, displaying its details and providing buttons for editing and deleting the task.
 
 ### `src/components/TaskList.js`
 
