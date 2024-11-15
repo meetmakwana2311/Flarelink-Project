@@ -3,6 +3,7 @@
 A simple and intuitive Task Manager application built with ReactJS, that allows users to create, edit, and delete tasks. This project aims to help users manage their tasks efficiently and improve productivity.A simple and intuitive Task Manager application built with React. This application allows users to create, edit, and delete tasks, helping them manage their daily activities efficiently. If you don't want to download react, use Stackbiltz online platform for performing this project.
 
 I used Stackbiltz, here's link to my project: https://react-7gbaay.stackblitz.io/
+Video: https://1drv.ms/v/s!AssAzfq7whyep3_cw9JB3e1p9xQC?e=3PYmOe
 
 ## Features
 
