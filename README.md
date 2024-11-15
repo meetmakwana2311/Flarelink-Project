@@ -21,14 +21,6 @@ A simple and intuitive Task Manager application built with ReactJS, that allows 
 
 ## File Explanations
 
-### `public/index.html`
-
-This is the main HTML file for the application. It contains a basic structure and a placeholder where the React application will be rendered. It also includes links to any necessary external resources.
-
-### `src/index.js`
-
-This file serves as the entry point for the React application. It initializes the app and connects it to the HTML file. Essentially, it tells React where to display the main application.
-
 ### `src/App.js`
 
 The `App` component is the core of the application. It manages the overall state, including the list of tasks. This file brings together different components and handles the main logic for adding, editing, and deleting tasks.
