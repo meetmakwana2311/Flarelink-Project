@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import TaskInput from './TaskInput';
 import TaskList from './TaskList';
 import SearchBar from './SearchBar';
-import './style.css'; // Add your styles here
+import './style.css'; 
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [filter, setFilter] = useState('all'); // 'all', 'completed', 'incomplete'
-  const [sortBy, setSortBy] = useState('title'); // 'title', 'priority'
+  const [filter, setFilter] = useState('all'); 
+  const [sortBy, setSortBy] = useState('title'); 
 
   useEffect(() => {
     const storedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
